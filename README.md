@@ -17,7 +17,7 @@
         <a href="https://github.com/manangouhari">
             <img src="https://avatars3.githubusercontent.com/u/31039184?v=4" width="100;" alt="manangouhari"/>
             <br />
-            <sub><b>manangouhari</b></sub>
+            <sub><b>Manangouhari</b></sub>
         </a>
     </td>
     <td align="center">
