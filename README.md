@@ -1,5 +1,8 @@
 # Magic Read FrontEnd
 
+
+## Thank You All Contributing :relaxed:.
+
 <!-- readme: contributors -start --> 
 <table>
 <tr>
