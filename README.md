@@ -23,7 +23,7 @@ And you are good to go!
 
 ## Thank You All Contributing :relaxed:.
 
-<!-- readme: contributors -start -->
+<!-- readme: contributors -start --> 
 <table>
 <tr>
     <td align="center">
