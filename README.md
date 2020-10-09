@@ -27,17 +27,17 @@ And you are good to go!
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/manangouhari">
-            <img src="https://avatars3.githubusercontent.com/u/31039184?v=4" width="100;" alt="manangouhari"/>
-            <br />
-            <sub><b>Manangouhari</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/fabcodingzest">
             <img src="https://avatars1.githubusercontent.com/u/48706652?v=4" width="100;" alt="fabcodingzest"/>
             <br />
             <sub><b>Fab</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/manangouhari">
+            <img src="https://avatars3.githubusercontent.com/u/31039184?v=4" width="100;" alt="manangouhari"/>
+            <br />
+            <sub><b>Manangouhari</b></sub>
         </a>
     </td>
     <td align="center">
