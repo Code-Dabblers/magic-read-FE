@@ -1,16 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import CSSBaseline from '@material-ui/core/CSSBaseline';
+import CSSBaseline from "@material-ui/core/CSSBaseline";
 
-import Router from './router';
-
+import Router from "./router";
 
 function App() {
   return (
-
     <div className="App">
       <CSSBaseline />
-      <Router/>
+      <Router />
     </div>
   );
 }
