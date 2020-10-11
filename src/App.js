@@ -1,6 +1,6 @@
 import React from "react";
 
-import CSSBaseline from "@material-ui/core/CSSBaseline";
+import CSSBaseline from "@material-ui/core/CssBaseline";
 
 import Router from "./router";
 
