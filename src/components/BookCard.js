@@ -26,12 +26,11 @@ function BookCard(props) {
 			</CardActionArea>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
-					{/* {props.book_title} */}
+					{props.book_title}
 					Title
 				</Typography>
 				<Typography variant="body2" color="textSecondary" component="p">
-					{/* {props.author} */}
-					Author
+					{props.author}
 				</Typography>
 			</CardContent>
 			<CardActions>
