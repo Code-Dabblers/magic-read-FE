@@ -24,7 +24,7 @@ const useStyles = makeStyles({
 	}
 });
 
-function BookCard(thumbnail, rating, book_title, author) {
+export default function BookCard({ thumbnail, rating, book_title, author }) {
 	const classes = useStyles();
 	return (
 		<Card className={classes.root}>
@@ -48,5 +48,3 @@ function BookCard(thumbnail, rating, book_title, author) {
 		</Card>
 	);
 }
-
-export default BookCard;
