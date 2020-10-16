@@ -15,22 +15,28 @@ const useStyles = makeStyles({
 	},
 	media: {
 		height: 240
+	},
+	rating: {
+		paddingLeft: 15
+	},
+	typography: {
+		paddingLeft: 5
 	}
 });
 
-function BookCard(props) {
+function BookCard(thumbnail, rating, book_title, author) {
 	const classes = useStyles();
 	return (
 		<Card className={classes.root}>
 			<CardActionArea>
-				<CardMedia className={classes.media} image="{props.thumbnail}" title="Book Thumbnail" />
-				<Rating name="read-only" value="{props.rating}" readOnly size="large" />
-				<CardContent className={classes.content}>
-					<Typography gutterBottom variant="h5" component="h5">
-						{props.book_title}
+				<CardMedia className={classes.media} image={thumbnail} title="Book Thumbnail" />
+				<Rating className={classes.rating} name="read-only" value={rating} readOnly size="large" />
+				<CardContent>
+					<Typography className={classes.typography} gutterBottom variant="h5" component="h5">
+						{book_title}
 					</Typography>
-					<Typography variant="subtitle1" color="textSecondary" component="p">
-						{props.author}
+					<Typography className={classes.typography} variant="subtitle1" color="textSecondary" component="p">
+						{author}
 					</Typography>
 				</CardContent>
 			</CardActionArea>
