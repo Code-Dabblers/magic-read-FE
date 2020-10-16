@@ -9,7 +9,7 @@ git clone https://github.com/Code-Dabblers/magic-read-FE.git
 cd magic-read-FE
 ```
 
-2. Run `yarn` to install the dependencies.
+2. Run `yarn` or `npm i` to install the dependencies.
 3. Follow the intructions to setup the [backend](https://github.com/Code-Dabblers/MagicReads_BE/blob/main/README.md#getting-started)
 4. Make a .env.local file and add the following content (BONUS: Read about the different environment variables [here](https://create-react-app.dev/docs/adding-custom-environment-variables/) :)
 
@@ -17,13 +17,13 @@ cd magic-read-FE
 REACT_APP_API=http://localhost:800/api
 ```
 
-5. Run the app with `yarn start` in the terminal.
+5. Run the app with `yarn start` or `npm start` in the terminal.
 
 And you are good to go!
 
 ## Thank You All Contributing :relaxed:.
 
-<!-- readme: contributors -start --> 
+<!-- readme: contributors -start -->
 <table>
 <tr>
     <td align="center">
