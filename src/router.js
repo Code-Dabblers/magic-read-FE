@@ -1,10 +1,5 @@
-import React from 'react'
-import {
-    BrowserRouter,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/home";
 import Login from "./pages/auth/login";
