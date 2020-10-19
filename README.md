@@ -53,6 +53,20 @@ And you are good to go!
             <br />
             <sub><b>Manangouhari</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/sphoorthig">
+            <img src="https://avatars0.githubusercontent.com/u/59635329?v=4" width="100;" alt="sphoorthig"/>
+            <br />
+            <sub><b>Sphoorthi Gaddam</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/NadaFarook">
+            <img src="https://avatars0.githubusercontent.com/u/63719192?v=4" width="100;" alt="NadaFarook"/>
+            <br />
+            <sub><b>NadaFarook</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
