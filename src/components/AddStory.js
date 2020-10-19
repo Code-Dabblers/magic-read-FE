@@ -10,7 +10,7 @@ import {
     RadioGroup,
     FormControlLabel,
 } from "@material-ui/core";
-import Dial from "../pages/AddImg";
+import Dial from "./AddImg";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 
 const useStyles = makeStyles((theme) => ({
