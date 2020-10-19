@@ -4,37 +4,27 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Login from "./pages/auth/login";
 import Register from "./pages/auth/register";
-import NewStory from './pages/NewStory'
-
+import NewStory from "./pages/newStory";
 
 export default function Router() {
     return (
         <div>
             <BrowserRouter>
                 <Switch>
-                    <Route
-                        path="/"   
-                        exact                 
-                    >
+                    <Route path="/" exact>
                         <Home />
                     </Route>
-                    <Route
-                        path="/auth/login"
-                    >
+                    <Route path="/auth/login">
                         <Login />
                     </Route>
-                    <Route
-                        path="/auth/register"
-                    >
+                    <Route path="/auth/register">
                         <Register />
                     </Route>
-                    <Route
-                        path="/new/story"
-                    >
+                    <Route path="/new/story">
                         <NewStory />
                     </Route>
                 </Switch>
             </BrowserRouter>
         </div>
-    )
+    );
 }
