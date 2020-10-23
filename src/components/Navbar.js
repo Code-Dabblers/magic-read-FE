@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import {
@@ -10,10 +10,6 @@ import {
     Typography,
     IconButton,
     InputBase,
-    Link,
-    FormControlLabel,
-    FormGroup,
-    Switch,
 } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
