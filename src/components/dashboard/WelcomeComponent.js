@@ -1,22 +1,15 @@
 import React from "react";
-import {
-    Paper,
-    Button,
-    Typography,
-    makeStyles,
-    Link,
-} from "@material-ui/core";
+import { Paper, Button, Typography, makeStyles, Link } from "@material-ui/core";
 import CreateIcon from "@material-ui/icons/Create";
 
 const useStyles = makeStyles((theme) => ({
-    
     paper: {
         padding: theme.spacing(3, 2, 3),
-        maxWidth: "320px"
+        maxWidth: "320px",
     },
     heading: {
         fontWeight: 600,
-        color: "#303F9F",
+        color: theme.palette.primary.main,
         padding: ".4rem 1.25rem",
     },
     subheading: {
@@ -36,7 +29,11 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function WelcomeComponent({ username, numStoriesRead, numStoriesWritten }) {
+export default function WelcomeComponent({
+    username,
+    numStoriesRead,
+    numStoriesWritten,
+}) {
     const classes = useStyles();
     return (
         <Paper elevation={4} className={classes.paper} square>
@@ -50,20 +47,25 @@ export default function WelcomeComponent({ username, numStoriesRead, numStoriesW
             >
                 Your stories have been read {`0` || numStoriesRead} times
             </Typography>
-                    <Typography
-                        component="p"
-                        variant="subtitle2"
-                        className={classes.subheading}
-                    >
-                        You've read over {`0` || numStoriesWritten} stories
+            <Typography
+                component="p"
+                variant="subtitle2"
+                className={classes.subheading}
+            >
+                You've read over {`0` || numStoriesWritten} stories
             </Typography>
-            
+
             {/* TODO: Add link to new story page. */}
             <Link className={classes.link}>
-                <Button type="submit" fullWidth variant="contained" color="primary">
+                <Button
+                    type="submit"
+                    fullWidth
+                    variant="contained"
+                    color="primary"
+                >
                     <CreateIcon className={classes.gap}></CreateIcon>
-                        Start Writing
-                    </Button>
+                    Start Writing
+                </Button>
             </Link>
         </Paper>
     );
